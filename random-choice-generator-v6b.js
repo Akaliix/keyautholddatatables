@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		var choiceArray = allText.split(theSep);
 
 		choiceArray = choiceArray.filter(function(item) {
-		    return !item.trim().toLowerCase().includes("mehmet");
+		    return !item.trim().toLowerCase().includes("berivan");
 		});
 		
 		var numOfChoices = (choiceArray.length);
